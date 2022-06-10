@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda</title>
+    <link rel="stylesheet" href="free.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="s2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang Kami</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="ekskul.html">Ekstrakulikuler</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>SMA ANGKASA 1</h1>
+    <p>#dirumahaja</p>
+</div>
+
+</section>
+
+<!-----about------>
+
+<section class="about">
+    <h1>Tentang Kami</h1>
+    <p>SMA Angkasa 1 merupakan salah satu dari 24 sekolah dibawah pengelolaan Yayasan Ardhya Garini (Yasarini) Pengurus Cabang Lanud Halim Perdanakusuma Jakarta Timur. Berdiri sejak tahun 1983 dan terlatak di Jalan Trikora Raya Halim Perdanakusuma Jakarta Timur.</p>
+
+    <div class="row">
+        <div class="about-col">
+            <h3>Kreatif</h3>
+        </div> 
+        <div class="about-col">
+            <h3>Mandiri</h3>
+        </div>
+        <div class="about-col">
+            <h3>Prestasi</h3>
+        </div>  
+    </div>
+</section>
+
+<!--------Formulir------->
+<div class="formulir">
+        <a href="index.html"><img src="d1.jpeg"></a>
+</div>
+
+<!--------Blog Sejarah------->
+<section class="blog-konten">
+    <h1>Sejarah</h1>
+    <div class="row">
+        <div class="blog-kiri">
+            <img src="tes.jpg">
+            <p>SMA Angkasa didirikan pada tahun ajaran 1983/1984 pada bulan Juli 1983 dibawah naungan Badan Kerja Sama Pendidikan (BKSP) TNI AU Halim P., untuk pertama kalinya SMA Angkasa menyelenggarakan EBTA/EBTANAS di SMA Negeri 67 Jakarta sebagai alumni pertama SMA Angkasa. Pada tahun 1984, para pengurus BKSP mengajukan permohonan bantuan kepada Pemda DKI Jakarta satu unit ruang kelas.</p>
+            <br>
+            <p> tahun ajaran 1985/1986 kegiatan belajar mengajar di laksanakan di gedung baru SMA Angkasa di Jl. Trikora Raya Halim P. Tahun 1987 berstatus terakreditasi untuk pertama kalinya. Dengan hasil akreditasi Disamakan, sehingga secara resmi mulai tahun ajaran tersebut SMA Angkasa berhak menyelenggarakan ujian secara mandiri.</p>
+            <br>
+            <p>Peminat yang semakin meningkat dari tahun ke tahun menyebabkan SMA Angkasa kekurangan gedung, sehingga pada tahun ajaran 1995/1996 SMA Angkasa membuka Kelas Jauh (KJ) KBM dilaksanakan pada siang hari dan pagi harinya digunakan KBM SD Angkasa 8 di Jl. Avia Komp. Skadron Halim P.</p>
+            <br>
+            <p> perkembangan siswa yang cukup banyak mulai tahun ajaran 1999/2000 SMA Angkasa KJ berubah menjadi SMA Angkasa 2. Sedangkan SMA Angkasa Induk berubah menjadi SMA Angkasa 1, dibawah naungan Yayasan Ardhya Garini Badan Pengurus Cabang Lanud Halim P.</p>
+        </div>
+        <div class="blog-kanan"></div>
+    </div>
+
+</section>
+
+<!--------kontak------->
+
+<section class="kontak">
+    <h4>Sosial Media</h4>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-youtube"></i>
+    <p>(Hak Cipta &copy; 2022. <b>Sekolah Angkasa 1.</b> Pengembangan oleh kelompok 5.)</p>
+    </div>
+    </div>
+</section>
+
+<!------Javascript for toggle menu------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
